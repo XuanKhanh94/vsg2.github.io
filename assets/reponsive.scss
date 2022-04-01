@@ -187,18 +187,18 @@
     }
     //diable AOS
     [data-aos] {
-        pointer-events: auto !important;
+        pointer-events: auto;
     }
 
     html:not(.no-js) [data-aos^="fade"][data-aos^="fade"] {
-        opacity: 1 !important;
+        opacity: 1;
     }
 
     html:not(.no-js) [data-aos="fade-right"] {
-        transform: none !important;
+        transform: none;
     }
     html:not(.no-js) [data-aos="fade-left"] {
-        transform: none !important;
+        transform: none;
     }
 
     @keyframes fadein {
